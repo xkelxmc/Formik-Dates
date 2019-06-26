@@ -27,9 +27,6 @@ export default function DatePickerField({ field, form, ...other }) {
       inputValue={dateString}
       mask="__.__.____"
       format="dd.MM.yyyy"
-      // helperText={
-      //   typeof currentError === "object" ? "Invalide Date" : currentError
-      // }
       error={(currentError && currentTouched) || false}
       helperText={currentError && currentTouched ? currentError : null}
       // error={Boolean(currentError)}
@@ -41,7 +38,6 @@ export default function DatePickerField({ field, form, ...other }) {
       // }}
       onChange={(date, value) => {
         const saveDate = !isNaN(date.getTime());
-        console.log("saveDate", saveDate, date, value);
         form.setFieldTouched(field.name, true, false);
         form.setFieldValue(field.name, saveDate ? date : value, true);
       }}
