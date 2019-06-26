@@ -1,0 +1,46 @@
+{
+  "name": "formic-material-ui-datepicker",
+  "version": "1.0.0",
+  "description": "Validate StartredAt and ExpiredAt with KeyboardDatePicker from @material-ui/pickers in Formik with Yup",
+  "keywords": [
+    "typescript",
+    "material ui picker",
+    "react",
+    "material ui",
+    "yup"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@date-io/date-fns": "1.3.7",
+    "@material-ui/core": "4.1.3",
+    "@material-ui/pickers": "3.1.2",
+    "@material-ui/styles": "4.1.2",
+    "@types/react": "16.8.22",
+    "@types/yup": "0.26.18",
+    "date-fns": "2.0.0-beta.1",
+    "formik": "1.5.7",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-jss": "8.6.1",
+    "react-scripts": "2.1.3",
+    "typescript": "3.5.2",
+    "yup": "0.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
